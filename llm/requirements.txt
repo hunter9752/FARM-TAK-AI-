@@ -1,0 +1,13 @@
+# LLM Requirements for Farmer Assistant
+# Core dependencies
+requests>=2.28.0
+pandas>=1.5.0
+
+# Optional for advanced features
+# transformers>=4.20.0  # For Hugging Face models (if needed)
+# torch>=1.12.0         # For local PyTorch models (if needed)
+
+# The main LLM backend is Ollama (external service)
+# Install Ollama separately from: https://ollama.ai
+# Then run: ollama serve
+# Then pull model: ollama pull llama3.2:3b

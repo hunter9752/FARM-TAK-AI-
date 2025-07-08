@@ -1,0 +1,99 @@
+# 🔒 Security - Never commit credentials
+*.env
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+llm/.env
+llm/.env.txt
+**/.env
+**/.env.*
+
+# 🔑 API Keys and Secrets
+**/api_keys.txt
+**/credentials.json
+**/config.json
+**/*_key.txt
+**/*_secret.txt
+
+# 🗂️ Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# 🎵 Audio Files (Generated TTS)
+*.mp3
+*.wav
+*.ogg
+*.m4a
+temp_audio/
+audio_cache/
+
+# 📊 Logs
+*.log
+logs/
+*.out
+
+# 🖥️ OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 📝 IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 📦 Dependencies
+node_modules/
+venv/
+env/
+.venv/
+
+# 🧪 Test Results
+test_results/
+coverage/
+.coverage
+.pytest_cache/
+
+# 📱 Build Files
+build/
+dist/
+*.egg-info/
+
+# 🔄 Version Control
+.git/
+.svn/
+.hg/
+
+# 📋 Project Specific
+# Add any project-specific files to ignore here
+
+# Large Model Files (GitHub Size Limits)
+stt vosk model/models/
+models/
+vosk-model*/
+*.bin
+*.model
+*.zip
+*.tar.gz
+*.7z
+
+# Temporary directories
+temp*/
+tmp*/

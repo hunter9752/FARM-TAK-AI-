@@ -1,0 +1,14 @@
+# NLP Requirements for Farmer Intent Detection
+# These are in addition to STT requirements
+
+# Core NLP dependencies (already covered by STT)
+# numpy>=1.21.0
+# No additional heavy dependencies needed
+
+# Optional for advanced features
+# spacy>=3.4.0  # For advanced NLP (uncomment if needed)
+# transformers>=4.20.0  # For BERT-based models (uncomment if needed)
+# scikit-learn>=1.1.0  # For ML-based classification (uncomment if needed)
+
+# The current implementation uses lightweight regex and rule-based NLP
+# which doesn't require additional dependencies beyond Python standard library
