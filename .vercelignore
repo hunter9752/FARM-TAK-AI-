@@ -1,0 +1,20 @@
+# Vercel Deployment Files
+*.vercel
+.vercel
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment Files
+.env
+*.env
+
+# Local Development
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db

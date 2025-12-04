@@ -1,0 +1,31 @@
+# Farmer Assistant Website Requirements
+# Flask web framework and dependencies
+
+# Core web framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# HTTP requests
+requests==2.31.0
+
+# Text-to-Speech
+gtts==2.3.2
+
+# Data processing
+pandas==2.0.3
+
+# Audio processing (optional)
+pygame==2.5.2
+
+# Environment variables
+python-dotenv==1.0.0
+
+# JSON handling (built-in)
+# datetime (built-in)
+# tempfile (built-in)
+# threading (built-in)
+
+# Optional: Advanced features
+# speechrecognition==3.10.0  # For STT in browser
+# pydub==0.25.1              # Audio processing
+# numpy==1.24.3              # Numerical operations
